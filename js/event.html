@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트 이벤트</title>
+    <link rel="stylesheet" href="css/function.css"
+</head>
+<body>
+    <h1>이벤트 코드 작성 준비!</h1>
+    <ul>
+        <li><a href="#" onclick="changeBg('green')">Green</a></li>
+        <li><a href="#" onclick="changeBg('orange')">Orange</a></li>
+        <li><a href="#" onclick="changeBg('purple')">Purple</a></li>
+    </ul>
+    <div id="result"></div>
+
+    <script>
+        function changeBg(color) {
+            let result = document.querySelector("#result"); //html 태그에 접근하겠다
+            result.style.backgroundColor = color;             
+        }
+    </script>
+</body>
+
+</html>
