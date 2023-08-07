@@ -12,11 +12,6 @@ def main():
     print(soup.title.string)
     print(soup.find("p").get_text())
 
-    # 과제 : 
-    # div_tag = soup.find('div', class_ = 'fakecampus')
-    # p_tag = div_tag.find('p')
-    # print(p_tag.text)
-    # 한줄로 합치기
     fake_str = soup.find('div', class_='fakecampus').find_all('p')
     print(fake_str[2].get_text())
 
