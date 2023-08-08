@@ -9,3 +9,5 @@ plotly
 jupyterlab
 requests
 beautifulsoup4
+lxml
+scrapy
