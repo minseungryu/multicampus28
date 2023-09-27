@@ -2,8 +2,6 @@
 
 ## 강남구 지역 상권 기반 시간대별 편의점 매출 예측
 
-
-
 - 주제 : 편의점 운영 시간대 선택을 도와 운영 부담 감소를 위한 "강남구 지역 상권 기반 시간대별 매출 예측"
 
 - 일정 : 2023/09/01 ~ 2023/09/26
@@ -12,9 +10,7 @@
 
 
 
-<a href="https://www.flaticon.com/free-icons/convenience-store" title="convenience store icons">Convenience store icons created by Uniconlabs - Flaticon</a>
-
-### 
+<a href="https://www.flaticon.com/free-icons/convenience-store" title="convenience store icons">편의점_점주 및 창업예정자를 위한</a>
 
 ### 주제 선정 배경
 
@@ -27,8 +23,16 @@
 > **주제의 목적 및 필요성**
 >  👉 매장 운영 효율성 증가 및 손익 판단을 위한 입지 기반 매출 정보 제공 필요
 
-****
+
 
 ### 분석 대상 선정(강남구)
 
+- 분산 분석을 통해 서울시 서로 다른 상권 4개를 기준, 시간대별 매출에 통계적 차이가 있음을 확인
 
+- 개업 대비 폐업 수가 가장 많은 **강남구** ➡ 경쟁이 심화되며 매출은 줄어드는 현실 반영
+
+![](/Users/angela/Library/Application%20Support/marktext/images/2023-09-27-10-51-13-image.png)
+
+
+
+### 분석 프로세스
