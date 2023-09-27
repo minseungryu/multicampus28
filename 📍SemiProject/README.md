@@ -10,7 +10,7 @@
 
 - 개발 언어 : Python
 
-</br>
+
 ## 💡 프로젝트 결과
 
 [Streamlit_대시보드](https://procspredictor.streamlit.app/)
@@ -21,7 +21,8 @@
 
 ![local](./sample_img/streamlit_01.png)
 
-</br>
+
+
 
 ## 💡 기대효과
 
@@ -58,7 +59,8 @@
 
 - 개업 대비 폐업 수가 가장 많은 **강남구** ➡ 경쟁이 심화되며 매출은 줄어드는 현실 반영
 
-</br>
+
+
 
 ### ✔ 분석 프로세스
 
@@ -72,7 +74,8 @@
 
 - Streamlit 대시보드 및 프레젠테이션 자료 작성
 
-</br>
+
+
 
 ### ✔ 데이터 종합
 
