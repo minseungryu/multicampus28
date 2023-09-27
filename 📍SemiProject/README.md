@@ -81,6 +81,32 @@
 
 ### ✔ 데이터 종합
 
-![](/Users/angela/multicampus28/📍SemiProject/sample_img/Data.png)
+![](./sample_img/Data.png)
+
+  
+
+  
+
+## ✔ 모델링
+
+- 비교적 짧은 학습 시간과, 예측 오류 손실을 최소화 
+
+- 대용량 데이터에 뛰어난 예측 성능
+
+- 단, 전체 데이터 개수가 적을 경우 과적합 우려
+  
+  👉 K-fold 교차 검증
+  👉 RandomSearchCV 로 하이퍼파라미터 튜닝
+
+
+
+## ✔ 평가 지표 선택
+
+- 종속변수(매출액)의 왜도 : 약 2.5
+
+- 균일하지 않은 분포의 데이터셋 예측 성능 측정을 위해 RMSE 선택
+  ![sales](./sample_img/Sales_hist.png)
+
+
 
 
