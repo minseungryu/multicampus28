@@ -48,9 +48,9 @@ pyproj
 
 <img title="" src="./sample_img/streamlit_01.png" alt="local" data-align="center" width="453">
 
-  -
+  
 
-
+  
 
 ## 💡 기대효과
 
@@ -62,9 +62,9 @@ pyproj
 
 ---
 
+  
 
 
--
 
 ### 1. 주제 선정 배경
 
@@ -87,7 +87,9 @@ pyproj
 
 - 개업 대비 폐업 수가 가장 많은 **강남구** ➡ 경쟁이 심화되며 매출은 줄어드는 현실 반영
 
+  
 
+  
 
 ### 3. 분석 프로세스
 
@@ -103,7 +105,7 @@ pyproj
 
   
 
-
+  
 
 ### 4. 데이터 종합
 
@@ -117,7 +119,7 @@ pyproj
 
 ### 5. Feature Engineering
 
-##### 1. 파생변수 생성
+#### (1) 파생변수 생성
 
 - 초기 모델링 평가 후, 성능 개선을 위한 feature engineering 시행
 
@@ -127,7 +129,7 @@ pyproj
 
 
 
-##### 2. 변수 선택
+#### (2) 변수 선택
 
 - 선택 방법 : 전진선택법 & 후진제거법을 결합한 단계적선택법 활용
 
@@ -139,9 +141,9 @@ pyproj
 
 <img title="" src="file:///Users/angela/multicampus28/📍SemiProject/sample_img/backward_selection.png" alt="후진" width="591" data-align="left">
 
+  
 
-
-
+  
 
 ### 6. 모델링
 
@@ -154,9 +156,9 @@ pyproj
   **👉 K-fold 교차 검증
   👉 RandomSearchCV 로 하이퍼파라미터 튜닝**
 
+  
 
-
-
+  
 
 ### 7. 평가 지표 선택(RMSE)
 
@@ -167,8 +169,16 @@ pyproj
 
 
 
-모델링 결과 정리
 
-끝..
+
+### 8. 모델링 결과
+
+> ##### 골목상권 예측 성능 오류 개선
+> 
+> RMSE 42666 ➡ 41951
+> 
+> ##### 비골목상권 예측 성능 오류 개선
+> 
+> RMSE 42666 ➡ 33248
 
 
