@@ -10,10 +10,7 @@
 
 - 개발 언어 : Python
 
-
-
-
-
+</br>
 ## 💡 프로젝트 결과
 
 [Streamlit_대시보드](https://procspredictor.streamlit.app/)
@@ -22,9 +19,9 @@
 
 - **모델링 시뮬레이션** : 시간대별 매출에 영향을 미치는 변수를 직접 조절하며 예측 결과를 확인할 수 있음
 
-![local](/Users/angela/multicampus28/📍SemiProject/sample_img/streamlit_01.png)
+![local](./sample_img/streamlit_01.png)
 
-
+</br>
 
 ## 💡 기대효과
 
@@ -61,9 +58,7 @@
 
 - 개업 대비 폐업 수가 가장 많은 **강남구** ➡ 경쟁이 심화되며 매출은 줄어드는 현실 반영
 
-
-
-
+</br>
 
 ### ✔ 분석 프로세스
 
@@ -77,7 +72,7 @@
 
 - Streamlit 대시보드 및 프레젠테이션 자료 작성
 
-
+</br>
 
 ### ✔ 데이터 종합
 
