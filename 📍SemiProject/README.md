@@ -139,7 +139,7 @@ pyproj
 
 - 파생변수와 초기변수 전체의 예측 성능을 고려하여 변수 선택
 
-<img title="" src="file:///Users/angela/multicampus28/📍SemiProject/sample_img/backward_selection.png" alt="후진" width="495" data-align="left">
+<img title="" src="file:///Users/angela/multicampus28/📍SemiProject/sample_img/backward_selection.png" alt="후진" width="436" data-align="left">
 
   
 
