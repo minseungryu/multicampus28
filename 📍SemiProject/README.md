@@ -8,23 +8,47 @@
 
 - Value Trackers 팀 : 류민승, 김신우, 김성원, 한규동
 
-- 개발 언어 : Python
-  
-    
-  
-  
+
+
+### Requirements
+
+---
+
+- Language : Python 3.11.5
+
+- Python Library
+
+```
+numpy==1.25.2
+pandas==2.0.3
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.9.0
+scikit-learn==1.3.0
+streamlit==1.24.1
+lightgbm==3.3.5
+joblib==1.2.0
+shapley
+streamlit_option_menu
+folium
+polygon
+Shapely
+pyproj
+```
+
+
 
 ## 💡 프로젝트 결과
 
-[Streamlit_대시보드](https://procspredictor.streamlit.app/)
+- 대시보드 링크 : [Streamlit_대시보드](https://procspredictor.streamlit.app/)
 
-- **시간대별 매출 시각화** : 상권과 분기를 선택시, 시간대별 편의점 예상 매출 확인 가능 ➡ 효율적인 매장 운영 시간 채택시 도움
+- **시간대 별 매출 시각화** : 상권과 분기를 선택시, 시간대별 편의점 예상 매출 확인 가능 ➡ 효율적인 매장 운영 시간 채택시 도움
 
 - **모델링 시뮬레이션** : 시간대별 매출에 영향을 미치는 변수를 직접 조절하며 예측 결과를 확인할 수 있음
 
-![local](./sample_img/streamlit_01.png)
+<img title="" src="./sample_img/streamlit_01.png" alt="local" data-align="center" width="453">
 
-  
+  -
 
 
 
@@ -38,13 +62,11 @@
 
 ---
 
-### 
 
 
+-
 
-
-
-### ✔ 주제 선정 배경
+### 1. 주제 선정 배경
 
 - 과열되는 경쟁 속의 편의점 : 지역 점포당 매출은 감소하며 폐업 수는 증가
 
@@ -59,7 +81,7 @@
 
   
 
-### ✔ 분석 대상 선정(강남구)
+### 2. 분석 대상 선정(강남구)
 
 - 분산 분석을 통해 서울시 서로 다른 상권 4개를 기준, 시간대별 매출에 통계적 차이가 있음을 확인
 
@@ -67,13 +89,7 @@
 
 
 
-
-
-
-
-
-
-### ✔ 분석 프로세스
+### 3. 분석 프로세스
 
 - 데이터 수집 ➡ 전처리(이상치, 결측치) ➡ 상권코드 기반 분기별, 시간별 데이터 매핑 ➡ 상권 군집화 시도(K-means Clustering) ➡ 골목/비골목 상권 기반 모델링 채택
 
@@ -89,23 +105,45 @@
 
 
 
-
-
-  
-
-### ✔ 데이터 종합
+### 4. 데이터 종합
 
 ![](./sample_img/Data.png)
 
+
+
+
+
   
 
+### 5. Feature Engineering
+
+##### 1. 파생변수 생성
+
+- 초기 모델링 평가 후, 성능 개선을 위한 feature engineering 시행
+
+- 기본 피처를 분석하여 유의미 할 것으로 예상되는 파생변수를 생성하고 변수 선택 시행
+
+![features](./sample_img/feature_engineering.png)
+
+
+
+##### 2. 변수 선택
+
+- 선택 방법 : 전진선택법 & 후진제거법을 결합한 단계적선택법 활용
+
+- 파생변수 각각의 예측 성능 영향도 확인
+
+![전진](/Users/angela/multicampus28/📍SemiProject/sample_img/forward_selection.png)
+
+- 파생변수와 초기변수 전체의 예측 성능을 고려하여 변수 선택
+
+<img title="" src="file:///Users/angela/multicampus28/📍SemiProject/sample_img/backward_selection.png" alt="후진" width="591" data-align="left">
 
 
 
 
-  
 
-## ✔ 모델링
+### 6. 모델링
 
 - 비교적 짧은 학습 시간과, 예측 오류 손실을 최소화 
 
@@ -113,24 +151,24 @@
 
 - 단, 전체 데이터 개수가 적을 경우 과적합 우려
   
-  👉 K-fold 교차 검증
-  👉 RandomSearchCV 로 하이퍼파라미터 튜닝
+  **👉 K-fold 교차 검증
+  👉 RandomSearchCV 로 하이퍼파라미터 튜닝**
 
 
 
 
 
-
-
-
-
-## ✔ 평가 지표 선택
+### 7. 평가 지표 선택(RMSE)
 
 - 종속변수(매출액)의 왜도 : 약 2.5
 
-- 균일하지 않은 분포의 데이터셋 예측 성능 측정을 위해 RMSE 선택
+- 균일하지 않은 분포의 데이터셋 예측 성능 측정을 위해 **RMSE 선택**
   ![sales](./sample_img/Sales_hist.png)
 
 
+
+모델링 결과 정리
+
+끝..
 
 
