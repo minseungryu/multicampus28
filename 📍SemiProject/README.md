@@ -12,6 +12,23 @@
 
 
 
-<img title="" src="file:///Users/angela/Library/Application%20Support/marktext/images/2023-09-27-10-42-56-image.png" alt="" width="86">56-image.png" title="" alt="" width="125">
+<a href="https://www.flaticon.com/free-icons/convenience-store" title="convenience store icons">Convenience store icons created by Uniconlabs - Flaticon</a>
+
+### 
+
+### 주제 선정 배경
+
+- 과열되는 경쟁 속의 편의점 : 지역 점포당 매출은 감소하며 폐업 수는 증가
+
+- 전기요금, 인건비 등 관리비 요금의 지속적 증가로 심해지는 영업 부담
+
+- 24시간 계약을 유도하는 브랜드에 대해 현실적으로 매출을 예측하고 영업시간을 선택할 수 있는 기준의 부재
+
+> **주제의 목적 및 필요성**
+>  👉 매장 운영 효율성 증가 및 손익 판단을 위한 입지 기반 매출 정보 제공 필요
+
+****
+
+### 분석 대상 선정(강남구)
 
 
