@@ -22,9 +22,7 @@
 
 - **모델링 시뮬레이션** : 시간대별 매출에 영향을 미치는 변수를 직접 조절하며 예측 결과를 확인할 수 있음
 
-![strearmlit1](/Users/angela/multicampus28/📍SemiProject/sample_img/streamlit_01.png)
-
-
+![local](/Users/angela/multicampus28/📍SemiProject/sample_img/streamlit_01.png)
 
 
 
@@ -78,6 +76,12 @@
 - 최종 예측 모델 도출 및 성과 확인(RMSE)
 
 - Streamlit 대시보드 및 프레젠테이션 자료 작성
+
+
+
+### ✔ 데이터 종합
+
+![](/Users/angela/multicampus28/📍SemiProject/sample_img/Data.png)
 
 
 
