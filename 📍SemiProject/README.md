@@ -135,7 +135,7 @@ pyproj
 
 - 파생변수 각각의 예측 성능 영향도 확인
 
-![전진](/Users/angela/multicampus28/📍SemiProject/sample_img/forward_selection.png)
+![전진](./sample_img/forward_selection.png)
 
 - 파생변수와 초기변수 전체의 예측 성능을 고려하여 변수 선택
 
